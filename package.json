@@ -23,7 +23,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.+(js|ts|jsx|tsx)\"",
     "format": "prettier --write \"src/**/*.+(js|ts|jsx|tsx)\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +45,8 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
     "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.55.0",
     "eslint-config-prettier": "^9.1.0",
