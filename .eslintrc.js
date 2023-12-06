@@ -20,6 +20,11 @@ module.exports = {
       },
     },
   ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: "latest",
