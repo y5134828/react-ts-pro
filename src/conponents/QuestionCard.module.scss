@@ -1,0 +1,28 @@
+.card {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 8px 12px;
+
+  .card-header {
+    display: flex;
+    border-bottom: 1px solid #efefef;
+    padding: 12px 0;
+    .left {
+      flex: 1;
+    }
+    .right {
+      width: 220px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .card-body {
+    display: flex;
+    padding: 12px 0;
+    justify-content: space-between;
+    .opitem {
+      margin-right: 12px;
+    }
+  }
+}

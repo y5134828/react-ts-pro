@@ -1,0 +1,25 @@
+.container {
+  box-sizing: border-box;
+  padding: 20px;
+  min-height: 100vh;
+}
+.header {
+  display: flex;
+
+  .left {
+    flex: 1;
+  }
+
+  .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    input {
+      height: 32px;
+      width: 60%;
+      padding: 0 12px;
+
+    }
+  }
+}
